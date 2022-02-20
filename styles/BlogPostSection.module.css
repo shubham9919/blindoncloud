@@ -1,0 +1,16 @@
+.ComponentTopicbody{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.ComponentTopiccards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 3%;
+    justify-content:center;
+}
+
+

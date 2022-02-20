@@ -1,0 +1,113 @@
+.Topic_Description:hover {
+    color: blue;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 3%;
+    justify-content:center;
+}
+
+.card:hover {
+    transition: .1s ease-in-out;
+    border: rgb(0, 82, 75) .1rem solid;
+    box-shadow: .1rem .1rem rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.card {
+    width: 33rem;
+    /* height: 28rem; */
+    min-height: 26rem;
+    object-fit:cover;
+    margin: 2.5rem;
+    border: .1rem solid rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+}
+
+.imagebox > img{   
+    padding: .2rem;
+    max-width:100%;
+    max-height:100%;
+}    
+
+.imagebox {
+    height: 20rem;
+    text-align: center;
+}
+
+.active{
+    transition: .1s ease-in-out;
+   border: rgb(0, 82, 75) .1rem solid;
+   box-shadow: .1rem .1rem rgb(238, 238, 238);
+   cursor: pointer;
+}
+
+.carddesc{
+    margin:0 .5rem;
+    position: relative;;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    text-align:left;
+    text-transform: capitalize;
+    line-height: 2rem;
+    color: black;
+    margin-top: auto;
+    text-align: left;
+    line-height: 2.2rem;
+    padding-bottom: 1rem;
+}
+
+.carddesc > p{
+    margin-top: 1rem;
+}
+
+
+.carddesc > a {
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.Topic_Description, .para{
+    font-size: 1.4rem;
+    color: rgb(44, 43, 43);
+    text-transform: uppercase;
+}
+
+.para{
+    font-size: 1.3rem;
+}
+
+@media  only screen and (max-width: 450px){ 
+
+    .card {
+        width: 62rem;
+        /* width:auto; */
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .carddesc{
+        line-height: 3rem;
+        margin-top: 3.3rem;
+    }
+
+    .carddesc p {
+        font-size: 2.5rem;
+        line-height: 3.6rem;
+    }
+
+    .carddesc > a {
+        font-size: 2rem;
+    }
+
+    .Topic_Description {
+        font-size: 2.2rem;
+    }
+}

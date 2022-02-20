@@ -1,0 +1,125 @@
+
+
+.course {
+    margin: 4rem 0 2rem 0; 
+    text-align: justify;
+    /* width: 35rem;
+    margin: 2.5rem; */
+}
+
+.coursePic {
+    background-color: #fff;
+    height: 20rem;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.checkNow {
+    width: 8rem;
+    height: 3rem;
+    border: .1px solid rgb(196, 196, 196);
+    margin: 1rem 0;
+    margin-bottom: 0;
+    border-radius: 1rem;
+    text-align: left;
+}
+
+
+.category {
+    margin: 1rem 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.courseDec {
+    padding: 2rem;
+    background-color: #fff;
+    margin: .5rem 0;
+    width: 36rem;
+    min-height: 10rem;
+    border: 1px solid black;
+    border-top: none;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.courseDec p {
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.category > p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .65rem;
+    text-transform:uppercase;
+    color: blue;
+}
+
+.checkNow {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.checkNow > a {
+    color: black;
+}
+
+.category > p {
+    text-align: left;
+}
+
+.category {
+    margin-bottom: 0;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.coursePic> img {
+    padding: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.active, 
+.first, 
+.first > a, 
+.active > a,
+#Active,
+#Active > a {
+    color: #fff;
+    background-color: rgb(0, 82, 75);
+    cursor: pointer;
+}
+
+.category p {
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 420px) {
+    .course, .courseDec {
+        width: 40rem;
+    }
+    .category p {
+        font-size: 1.5rem;
+    }
+    .courseDec p {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+}

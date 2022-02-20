@@ -1,0 +1,25 @@
+.codeblockComponentBody{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.componentCodeBlockMain{
+    height:25rem;
+    border:.1rem solid #ccc;
+    font-family:  Georgia, Garamond, Serif;
+    font-size: 2.3rem;
+    overflow:auto;
+    display: flex;
+    margin:1rem auto;
+    text-align: center;
+    margin: 3rem 2rem;
+    font-weight: 300;
+}
+
+
+.preCodeBlock{
+      display: flex;
+      justify-content: left;
+      text-align: left;
+}

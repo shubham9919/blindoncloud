@@ -1,0 +1,32 @@
+.LandPageLoginBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-image: url(/stacked-peaks-haikei.svg);
+    margin-bottom: 4rem;
+    border-top-left-radius: 8rem;
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    margin: 1rem 15rem;
+    margin-bottom: 5rem;
+}
+
+.LandPageLoginDesc > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.LandPageLoginDesc{
+    margin-left: 1rem;
+}
+
+
+@media  only screen and (max-width: 450px){ 
+    .LandPageLoginBox {
+        margin: 1rem 12rem;
+        margin-bottom: 4rem;
+    }
+}

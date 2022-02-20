@@ -1,0 +1,24 @@
+.promotions {
+    background-image: url(/flows.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    justify-content:center;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* margin-top: 5rem; */
+    column-gap: 4rem;
+}

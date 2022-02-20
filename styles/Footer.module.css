@@ -1,0 +1,81 @@
+.body{
+    /* width: 100%;
+    max-width: 1280px; */
+    box-shadow: .1rem .1rem rgb(177, 177, 177);
+}
+.myfooter {
+    background: linear-gradient( #1d1d1d 100%, #868686 100%);
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.myfootertopics {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.topic {
+    position: relative;
+    top: 17%;
+    left: 20%;
+    margin-left: 2rem;
+}
+
+.topic > h3, .linkouts > h3{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: lighter;
+    font-weight: bold;
+}
+
+.sitenavul{
+    list-style: none;
+}
+
+.sitenavul > .list{
+    font-size: 1.8rem;
+}
+
+.sitenavul > .list > a{
+    text-decoration: none;
+    color: white;
+}   
+
+.linkouts{
+    border-top: .1rem solid rgb(255, 255, 255);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .9rem 0;
+
+}
+
+.sitenavul{
+    display: flex;
+}
+
+
+.active {
+    transition: .5s;
+    color: red;
+}
+
+.sitenavul > .list{
+    margin:0 1rem;
+    font-size: 2.7rem;
+}
+
+.copyrights > h3 {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: lighter;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 3%;
+}
+@media only screen and (max-width: 998px) {
+    .copyrights > h3 {
+        padding: 5% 0 ;
+    }
+  }
+

@@ -1,0 +1,47 @@
+.coverbody{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.coverbackgroud{
+    position: relative;
+    background-image:url(/Hero-Cover-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coverintrotext {
+    text-align: center;
+    top: 14rem;
+    margin: 0 18rem;
+    padding: 10rem 0 17rem 0;
+}
+    
+.coverintrotext h1 {
+    font-weight:normal;
+    font-size: 4.5rem;
+    line-height: 6.5rem;
+    margin-bottom: 2rem;
+}
+
+.coverintrotext > cite {
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .coverbody {
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .coverbody {
+        font-size: 55%;
+    }
+    .coverintrotext {
+        margin: 0 2rem;
+        top: 7rem;
+    }
+}

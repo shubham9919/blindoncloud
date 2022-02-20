@@ -1,0 +1,33 @@
+.internalTopicHeading {
+    top: 24rem;
+    margin: 2rem;
+}
+
+.topicNote{
+    display: flex;
+    justify-content: left;
+    background-color: #3D3D3D ;
+}
+
+.pencil {
+    width: 5rem;
+    position: relative;
+    background-color: #DD0004;
+    padding: 2.5rem;
+}
+
+.noteHeader {
+    display: block;
+    text-align: left;
+}
+
+.noteHeader > h3 
+{
+    margin-top: 1.3rem;
+    font-size: 2.3rem;
+    color: white;
+    margin-left: 1rem;
+    font-family:'Rubik',Arial,sans-serif;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}

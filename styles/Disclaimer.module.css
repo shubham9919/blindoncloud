@@ -1,0 +1,25 @@
+.privacyPolicyHeader {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.privacyPolicy {
+    margin:  1rem 8rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    line-height: 2.5rem;
+}
+
+
+.privacyPolicy b {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.privacyPolicy p {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.privacyPolicy > h3 {
+    margin: 1rem 0;
+}

@@ -1,0 +1,123 @@
+.body {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.hamburgermenu {
+    height: 5rem;
+    width: 100vw;
+}
+
+.hamburgermenuwebsitelogo {
+    position:absolute;
+    width: 50%;
+    height: 5rem;
+    left: 10%;
+}
+
+.hamburgermenucontent {
+    position:absolute;
+    height: 2rem;
+    left: 80%;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    margin-top: 1rem;
+}
+
+/* .hamburgermenusymbol {
+    position: absolute;
+    top: 20%;
+    bottom: 5%;
+    left: 45%;
+    right: 45%;
+} */
+
+.sidenavvisible {
+    width : 50%;
+    display : block;
+}
+
+.sidenavvisible > li {
+    list-style: none;
+    padding: .5rem;
+    white-space: nowrap;
+    margin-bottom: 6rem;
+}
+
+
+
+.sp {
+    font-size: 22rem;
+    color: #000000;
+}
+
+.hamburgermenushow {
+    position:fixed;
+    /* width: 100; */
+    height: 100%;
+    background: linear-gradient( #000000 100%, #636363 100%);
+    opacity: 0.85;
+    box-shadow: .1rem .1rem #acacac;
+    transition: all 10s;
+    z-index: 1;
+}
+
+.closebutton {
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    cursor: pointer;
+    font-size: 2rem;
+    display: none;
+}
+
+.hamburgermenuopt{
+    list-style: none;
+    position: absolute;
+    top: 15%;
+    right: 7rem;
+    /* left: 35%; */
+}
+
+.hidden {
+    display: none;
+}
+
+.hm > li > a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .hamburgermenu {
+        height: 8rem;
+    }
+    .hamburgermenucontent {
+        margin-top: 1.5rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .hamburgermenu {
+        height: 9rem;
+    }
+    .hamburgermenucontent {
+        margin-top: 1.5rem;
+    }
+    .hm > li > a{ 
+        font-size: 2.8rem;
+    }
+
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .hamburgermenu {
+        height: 10rem;
+    }
+  }

@@ -1,0 +1,22 @@
+.byAndDate{
+    margin: 2rem;
+    border-bottom: .1rem solid black;
+    border-top: .1rem solid black;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.byAndDate > h3 > .By {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.autherName {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.byAndDate > h3 > .date{
+    margin-left: 1rem; font-size: 1.8rem; font-weight: 300;
+}

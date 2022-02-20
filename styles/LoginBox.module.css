@@ -1,0 +1,90 @@
+.loginbody{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    border-radius: 1rem;
+    /* margin: 6.5rem 2rem; */
+    margin: 10rem;
+    width: 35rem;
+    /* height: 40rem; */
+    border: 1px green solid;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.Login {
+    margin: 0 1.5rem;
+    margin-top: 1.7rem;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.LoginFace {
+    background: #f00;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.socialIdentity {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face{
+    margin-top: 2rem;
+}
+
+.face > p {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.Login p {
+    margin-bottom: 1.7rem;
+}
+
+.socialIdentity {
+    /* margin-top: 4rem; */
+    padding:0 5rem 6rem 5rem;
+    cursor: pointer;
+}
+
+.loginProviderLogo {
+    width: 5rem;
+    height: 5rem;
+    margin-right: .4rem;
+}
+
+.LoginProvider {
+    height: 5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgb(255, 57, 57);
+}
+
+.LoginProvider > a {
+    line-height: 4.7rem;
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    white-space: "nowrap",
+
+}
+
+.loginProviderLogo > img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}

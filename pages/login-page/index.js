@@ -1,14 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
 import NavBar from '../NavBar/index'
-import LoginBox from '../LoginBox/index'
+import LoginBox from '../../components/LoginBox/index'
 import Footer from '../Footer/index'
 import Styles from '../../styles/LoginPage.module.css'
 
-function LoginPage(){
+function LoginPage() {
     return (
         <>
-               <Head>
+            <Head>
                 <title>Log In - BlindOnCloud.com</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content="Learn Cloud technology and ways to implement various cloud technologies efficiently. Discover cloud automation scripts and relevant courses to scale up in cloud journey." />
@@ -26,10 +26,10 @@ function LoginPage(){
             </Head>
             <NavBar></NavBar>
             <div className={Styles.LoginBoxPos}>
-            <LoginBox></LoginBox>
+                <LoginBox></LoginBox>
             </div>
             <footer className={Styles.loginFooter}>
-            <Footer></Footer>
+                <Footer></Footer>
             </footer>
         </>
     )

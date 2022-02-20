@@ -10,7 +10,7 @@ WORKDIR /usr/src/app/cloud-tech
 
 COPY package.json package.json
 
-RUN npm install
+RUN yarn install --ignore-engines
 
 COPY . .
 

@@ -113,13 +113,17 @@
 
 @media only screen and (max-width: 420px) {
     .course, .courseDec {
-        width: 40rem;
+        width: 55rem;
     }
     .category p {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     .courseDec p {
-        font-size: 1.8rem;
+        font-size: 3rem;
         margin-bottom: 3rem;
+        line-height: 4rem;
+    }
+    .coursePic {
+        height: auto;
     }
 }

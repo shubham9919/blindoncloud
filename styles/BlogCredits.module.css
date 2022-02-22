@@ -20,3 +20,18 @@
 .byAndDate > h3 > .date{
     margin-left: 1rem; font-size: 1.8rem; font-weight: 300;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .byAndDate > h3 > .By {
+        font-size: 3rem;
+    }
+    
+    .autherName {
+        font-size: 3rem;
+    }
+    
+    .byAndDate > h3 > .date{
+        font-size: 2.7rem; 
+    }
+}

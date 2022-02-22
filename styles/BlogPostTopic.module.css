@@ -82,12 +82,13 @@
 
 .para{
     font-size: 1.3rem;
+    margin-bottom: 2.5rem;
 }
 
 @media  only screen and (max-width: 450px){ 
 
     .card {
-        width: 62rem;
+        width: 68rem;
         /* width:auto; */
         height: auto;
         margin-top: 2rem;
@@ -95,12 +96,12 @@
 
     .carddesc{
         line-height: 3rem;
-        margin-top: 3.3rem;
+        margin-top: 4.3rem;
     }
 
     .carddesc p {
-        font-size: 2.5rem;
-        line-height: 3.6rem;
+        font-size: 3rem;
+        line-height: 4rem;
     }
 
     .carddesc > a {
@@ -108,6 +109,6 @@
     }
 
     .Topic_Description {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 }

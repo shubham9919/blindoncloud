@@ -13,21 +13,24 @@ function HomePageSignUp() {
                             fontFamily: "Playfair Display",
                             fontSize: "3rem",
                             color: "red",
-                            marginTop: "2rem"
+                            marginTop: "2rem",
+                            lineHeight: "4rem"
                         }}
                     >Log in!</p><br></br>
                     <p
                         style={{
                             fontFamily: "Playfair Display",
                             fontSize: "3rem",
-                            color: "black"
+                            color: "black",
+                            lineHeight: "4rem"
                         }}
                     >Get The Access to some<br></br>of the premium articles on</p>
                     <p
                         style={{
                             fontFamily: "Playfair Display",
                             fontSize: "3rem",
-                            color: "blue"
+                            color: "blue",
+                            lineHeight: "4rem"
                         }}
                     >BlindOnCloud.</p>
                 </div>

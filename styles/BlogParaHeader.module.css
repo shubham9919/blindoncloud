@@ -21,8 +21,7 @@
     text-align: left;
 }
 
-.noteHeader > h3 
-{
+.noteHeader > h3 {
     margin-top: 1.3rem;
     font-size: 2.3rem;
     color: white;
@@ -30,4 +29,10 @@
     font-family:'Rubik',Arial,sans-serif;
     padding-bottom: 1rem;
     font-weight: 300;
+}
+
+@media only screen and (max-width: 700px) {
+    .noteHeader > h3 {
+        font-size: 2.8rem;
+    }
 }

@@ -44,4 +44,7 @@
         margin: 0 2rem;
         top: 7rem;
     }
+    .coverintrotext > cite {
+        font-size: 2rem;
+    }
 }

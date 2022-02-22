@@ -1,20 +1,23 @@
-FROM node:17.4.0-alpine
+FROM node:alpine
 
-EXPOSE 3000
+RUN mkdir -p /usr/src/app
 
-# ENV NODE_OPTIONS=--openssl-legacy-provider
 
-RUN mkdir -p /usr/src/app/cloud-tech
+WORKDIR /usr/src/app
 
-WORKDIR /usr/src/app/cloud-tech
+COPY package.json /usr/src/app
+COPY yarn.lock /usr/src/app
 
-COPY package.json package.json
+# Production use node instead of root
+# USER node
 
-RUN yarn install --ignore-engines
 
-COPY . .
+RUN yarn install
+
+COPY . /usr/src/app
 
 RUN yarn build
 
-CMD ["yarn", "start"]
+EXPOSE 3000
 
+CMD [ "yarn", "start" ]

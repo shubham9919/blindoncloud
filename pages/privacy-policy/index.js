@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import NavBar from "../NavBar";
-import Footer from "../Footer/index"
+import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer"
 import Styles from "../../styles/Disclaimer.module.css"
 
 

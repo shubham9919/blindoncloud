@@ -1,5 +1,5 @@
 import React from 'react'
-import PromotionsTile from '../../components/PromotionsTile/PromotionsTile'
+import PromotionsTile from '../PromotionsTile/PromotionsTile'
 import Styles from '../../styles/PromotionTiles.module.css'
 
 

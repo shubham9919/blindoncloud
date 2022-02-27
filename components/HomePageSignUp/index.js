@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from '../../styles/HomePageSignUp.module.css'
-import LoginBox from '../../components/LoginBox/index'
+import LoginBox from '../LoginBox/index'
 
 
 function HomePageSignUp() {

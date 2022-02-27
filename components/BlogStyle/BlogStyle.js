@@ -1,8 +1,8 @@
 import React from "react";
 import Head from 'next/head'
-import BlogContent from '../../components/BlogStyles/BlogStyle1/BlogContent'
-import Footer from "../Footer";
-import NavBar from "../NavBar";
+import BlogContent from '../BlogStyles/BlogStyle1/BlogContent'
+import Footer from "../Footer/Footer";
+import NavBar from "../NavBar/NavBar";
 
 
 

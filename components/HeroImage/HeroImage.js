@@ -1,5 +1,5 @@
 import React from "react";
-import HomePageSectionHeader from '../HomePageSectionHeader/index'
+import HomePageSectionHeader from '../HomePageSectionHeader/HomePageSectionHeader'
 import Style from "../../styles/HeroImage.module.css"
 
 function HeroImage() {

@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Head from 'next/head'
-import NavBar from '../NavBar/index'
-import Footer from '../Footer/index'
+import NavBar from '../../components/NavBar/NavBar'
+import Footer from '../../components/Footer/Footer'
 import Styles from '../../styles/AboutUs.module.css'
 
 

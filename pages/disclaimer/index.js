@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "../Footer/index"
+import Footer from "../../components/Footer/Footer"
 import Styles from '../../styles/Disclaimer.module.css'
-import NavBar from "../NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 
 
 function disclaimer() {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Styles from '../../styles/HamburgerMenu.module.css'
 import HeaderLogo from './HeaderLogo'
-import VerticalToggleButtons from '../VerticalToggleButtons'
+import VerticalToggleButtons from './VerticalToggleButtons'
 import { useRouter } from 'next/router';
 
 

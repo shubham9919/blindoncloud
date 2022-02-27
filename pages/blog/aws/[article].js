@@ -1,6 +1,6 @@
 import React from "react";
 import ExternalApiCalls from '../../api/ExternalApiCalls'
-import BlogStyle from '../../BlogStyle/index'
+import BlogStyle from '../../../components/BlogStyle/BlogStyle'
 import { saveBlogData } from '../../../redux/actions/index'
 import { useSelector, useDispatch } from 'react-redux'
 

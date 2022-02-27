@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from '../../styles/BlogPostSection.module.css'
-import BlogPostTopic from '../../components/BlogPostSectionTile/BlogPostTopic'
+import BlogPostTopic from '../BlogPostSectionTile/BlogPostTopic'
 
 
 function BlogPostsSection({ pageData }) {

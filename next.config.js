@@ -4,5 +4,14 @@ module.exports = {
     domains: [
       "cloud-tech.s3.ap-south-1.amazonaws.com"
     ]
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/article/:path*',
+        destination: '/',
+        permanent: true,
+      },
+    ]
+  },
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
-import NavBar from './NavBar/index'
-import HeroImage from './HeroImage/index'
-import BlogPostsSection from './BlogPostsSection/index'
+import NavBar from '../components/NavBar/NavBar'
+import HeroImage from '../components/HeroImage/HeroImage'
+import BlogPostsSection from '../components/BlogPostsSection/BlogPostsSection'
 import ExternalApiCalls from './api/ExternalApiCalls'
-import HomePageSectionHeader from './HomePageSectionHeader/index'
-import HomePageSignUp from './HomePageSignUp/index'
-import PromotionTiles from './Promotions/index'
-import Footer from './Footer/index.js'
+import HomePageSectionHeader from '../components/HomePageSectionHeader/HomePageSectionHeader'
+import HomePageSignUp from '../components/HomePageSignUp/index'
+import PromotionTiles from '../components/Promotions/Promotions'
+import Footer from './../components/Footer/Footer'
 
 
 export async function getStaticProps(ctx) {

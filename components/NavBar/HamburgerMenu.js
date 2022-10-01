@@ -59,11 +59,11 @@ function HamburgerMenu() {
                                         <a>Disclaimer</a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/login-page">
                                         <a>Sign Up</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

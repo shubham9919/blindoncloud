@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import NavBar from '../../components/NavBar/NavBar'
-import LoginBox from '../../components/LoginBox/index'
+import LoginBox from '../../components/LoginBox/LoginBox.js'
 import Footer from '../../components/Footer/Footer'
 import Styles from '../../styles/LoginPage.module.css'
 

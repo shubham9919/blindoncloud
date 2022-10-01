@@ -76,6 +76,8 @@ function AboutUs() {
                         <ul>
                             <li>➤ AWS Certified Cloud Practitioner Issued by Amazon Web Services. </li>
                             <li>➤ AWS Certified Solutions Architect – Associate Issued by Amazon Web Services. </li>
+                            <li>➤ HashiCorp Certified: Terraform Associate. </li>
+
                         </ul>
                         <h2>Experienced Technologies:- </h2>
                         <ul>
@@ -84,7 +86,7 @@ function AboutUs() {
                         </ul>
                         <h2>Known Technologies:-</h2>
                         <ul>
-                            <li>➤ HTML, CSS, React JS, Amazon Alexa Custom Skill and Developer Console.</li>
+                            <li>➤ HTML, CSS, React JS, Kubernetes, Terraform, Amazon Alexa Custom Skill and Developer Console.</li>
                         </ul>
                         <h2>Experienced Tools and Platforms:-</h2>
                         <ul>
@@ -101,6 +103,8 @@ function AboutUs() {
                         <ul>
                             <li>➤ Patent application published for Efficient Sensor Based Library Assistant Robot.<br></br>
                                 Application Number :- 202121051885&nbsp;A.</li>
+                            <li>➤ Patent application published for Wiping Device for Side Window of Vehicle.<br></br>
+                                Application Number :- 202221020885&nbsp;A.</li>
                         </ul>
                         <h2>Education :-</h2>
                         <ul>

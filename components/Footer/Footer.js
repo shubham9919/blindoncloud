@@ -28,11 +28,11 @@ function Footer() {
                                         <a className={Styles.atag}>About Us</a>
                                     </Link>
                                 </li>
-                                <li className={Styles.list}>
+                                {/* <li className={Styles.list}>
                                     <Link href="/login-page">
                                         <a className={Styles.atag}>Sign Up</a>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className={Styles.list}>
                                     <Link href="/privacy-policy">
                                         <a className={Styles.atag}>Privacy Policy</a>

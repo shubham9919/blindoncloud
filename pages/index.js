@@ -51,8 +51,8 @@ export default function Home({ pageData, promotions }) {
         <NavBar></NavBar>
         <HeroImage></HeroImage>
         {pageData ? <BlogPostsSection pageData={pageData}></BlogPostsSection> : null}
-        <HomePageSectionHeader sectionHeader={"Sign Up"}></HomePageSectionHeader>
-        <HomePageSignUp></HomePageSignUp>
+        {/* <HomePageSectionHeader sectionHeader={"Sign Up"}></HomePageSectionHeader> */}
+        {/* <HomePageSignUp></HomePageSignUp> */}
         <HomePageSectionHeader sectionHeader={"Check below Courses"}></HomePageSectionHeader>
         {promotions ? <PromotionTiles promotions={promotions}></PromotionTiles> : null}
       </main>

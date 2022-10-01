@@ -43,14 +43,14 @@ function FullMenu() {
                                         >Blog Post</a>
                                     </Link>
                                 </li> */}
-                                <li>
+                                {/* <li>
                                     <Link href="/login-page">
                                         <a
                                             className={Styles.active}
                                             key={"/login-page"}
                                         >Sign Up</a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
